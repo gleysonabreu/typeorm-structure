@@ -1,7 +1,7 @@
 import app from './app';
 import 'reflect-metadata';
-import './database';
+import '@shared/infra/typeorm';
 
 app.listen(3000, () => {
-  console.log('🏃 Running Server');
+  console.log('🚀 Running Server');
 });

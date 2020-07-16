@@ -10,11 +10,11 @@
     "src/modules/**/infra/typeorm/entities/*.ts"
  ],
  "migrations": [
-  "src/migrations/**/*.ts"
+  "src/shared/infra/typeorm/migrations/**/*.ts"
 ],
  "cli":{
   "migrationsDir": [
-    "src/migrations/"
+    "src/shared/infra/typeorm/migrations/"
   ],
   "entitiesDir": "src/models"
   }
