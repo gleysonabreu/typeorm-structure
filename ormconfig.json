@@ -1,0 +1,21 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "32841516",
+  "database": "testtypeorm",
+  "synchronize": true,
+  "entities": [
+    "src/modules/**/infra/typeorm/entities/*.ts"
+ ],
+ "migrations": [
+  "src/migrations/**/*.ts"
+],
+ "cli":{
+  "migrationsDir": [
+    "src/migrations/"
+  ],
+  "entitiesDir": "src/models"
+  }
+}
